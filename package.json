@@ -1,6 +1,6 @@
 {
-    "name": "acl2s-language-support",
-    "displayName": "ACL2s Language Support",
+    "name": "acl2s",
+    "displayName": "ACL2s",
     "description": "",
     "version": "0.0.1",
     "engines": {
@@ -13,7 +13,7 @@
         "languages": [{
             "id": "acl2s",
             "aliases": ["ACL2s", "acl2s"],
-            "extensions": [".lisp"],
+            "extensions": [".lisp",".a2s"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
